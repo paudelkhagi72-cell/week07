@@ -1,0 +1,105 @@
+/* Base styles */
+body {
+    background-color: #121212;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Main title */
+#main-title {
+    color: #1db954;
+    text-align: center;
+}
+
+/* Notice text */
+.alert-text {
+    color: #b3b3b3;
+    text-align: center;
+}
+
+/* Header layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+/* Week 7 - Navigation Flexbox */
+nav,
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a,
+.nav-menu a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+/* Week 7 - Horizontal Card Layout */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Card design */
+.card {
+    box-sizing: border-box;
+    background-color: #181818;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    flex: 1 1 250px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Card text spacing */
+.card h1,
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card button {
+    margin-right: 15px;
+}
+
+/* Week 7 - Fix Image Overflow */
+/* Old fixed-width image sizes should be commented out. */
+.card img {
+    /* width: 1000px; */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Keep SVG photos responsive too */
+.card svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact form */
+input,
+textarea {
+    box-sizing: border-box;
+    max-width: 100%;
+}
